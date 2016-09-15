@@ -1,0 +1,39 @@
+{
+  "name": "james-electrode-app",
+  "version": "0.0.0",
+  "description": "electrode-app",
+  "homepage": "electrode",
+  "author": {
+    "name": "tiffine-koch",
+    "email": "tiffine.koch@gmail.com",
+    "url": "tiffinekoch"
+  },
+  "contributors": [],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "electrode-io/james-electrode-app"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "gulp dev",
+    "test": "gulp test",
+    "coverage": "gulp check"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "electrode-router-resolver-engine": "^1.0.0",
+    "electrode-server": "^1.0.0",
+    "electrode-static-paths": "^1.0.0",
+    "lodash": "^4.10.1"
+  },
+  "devDependencies": {
+    "electrode-archetype-react-app": "^1.0.0",
+    "electrode-archetype-react-app-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  }
+}
